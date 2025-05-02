@@ -6,9 +6,9 @@ function menu_extends(){
         menus.innerHTML = `
                 <a class = "link" href="../weather/weather.html">Цаг агаар харах</a>
                 <a class = "link" href="../weathergm/weather_gm.html">Цаг агаар авах</a>
-                <a class="link" href="programm.html">Keep going</a>
+                <a class="link" href="progamm.html">Keep going</a>
                 <a class = "link" href="../../error/404.html">Бусад</a>`;
-                div
+                
         menus.style.animation="0.2s menu_out ease-out "
         menus.style.display="flex";
         menus.style.flexDirection="column";

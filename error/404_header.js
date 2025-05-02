@@ -6,7 +6,7 @@ function menu_extends(){
         menus.innerHTML = `
                 <a class = "link" href="../menu/weather/weather.html">Цаг агаар харах</a>
                 <a class = "link" href="../menu/weathergm/weather_gm.html">Цаг агаар авах</a>
-                <a class="link" href="../menu/develop/develop.html">Хөгжүүлэлтийн түүх</a>
+                <a class="link" href="../menu/programm/programm.html">Keep going</a>
                 <a class = "link" href="404.html">Бусад</a>`;
 
         menus.style.animation="0.2s menu_out ease-out "

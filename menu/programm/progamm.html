@@ -9,40 +9,41 @@
 
     <!-- CSS зам -->
     <link rel="stylesheet" href="../../header.css"> <!-- header css-->
-    <link rel="stylesheet" href="weather_main.css"> <!-- Тухайн хуудасны css-->
+    <link rel="stylesheet" href="programm_style.css"> <!--Тухайн хуудасны css--> 
+
 
     <!-- JavaScript зам -->
-    <script src="program_header.js"></script> <!-- header javascript-->
-    <script src="weather_main.js"></script> <!-- main javascript-->
+    <script src="programm.js"></script> <!-- header javascript-->
+    <script src="weather_main_gm.js"></script> <!-- main javascript-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-75P1EF0DCT"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-75P1EF0DCT');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-75P1EF0DCT');
     </script>
     <style>
+        body{
+            background-color: antiquewhite;
+        }
         .main{
-            font-size: 40px;
+            font-size: 50px;
             display: flex;
             justify-content: center;
-            align-items: center;
         }
     </style>
-
 </head>
 
 <body>
     <div class="top_head">
         <div class="header">
             <div class="header_name">
-                <img class="logo" src="../../favicon.png" alt="logo icon" width="80px">
+                <img class="logo" src="../../favicon.png" alt="logo icon" width="80px" >
                 <a href="../../index.html" class="hname">PerWeb</a>
             </div>
             <div class="header_side">
                 <button class="header_menu" onclick="menu_extends()">Цэс</button>
-                
             </div>
         </div>
         <hr>
@@ -52,7 +53,6 @@
     <div class = "main">
         <a href="https://www.mediafire.com/file/aztzbek7v0bjdmd/app-release.apk/file">Энэ дээр дарж татна уу?</a>
     </div>
-  
 
 </body>
 
