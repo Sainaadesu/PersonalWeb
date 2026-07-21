@@ -1,4 +1,4 @@
-{
+<!-- {
   "name": "weather_website",
   "version": "1.0.0",
   "description": "weather website sent gmail",
@@ -17,4 +17,4 @@
     "nodemailer": "^6.9.16"
   }
 }
-
+ -->
